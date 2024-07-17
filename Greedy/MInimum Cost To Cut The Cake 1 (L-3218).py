@@ -18,8 +18,10 @@ class Solution:
                 j += 1
         while i < n:
             cost += horizontalCut[i] * vPieces
+            hPieces += 1
             i += 1
         while j < m:
             cost += verticalCut[j] * hPieces
+            vPieces += 1
             j += 1
         return cost
