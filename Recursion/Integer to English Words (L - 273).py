@@ -1,3 +1,6 @@
+T.C. = log(num) (base = 10) #no of digits in a number = log10(num)
+S.C. = log(num) (base = 10) #due to recursive stack
+
 class Solution:
     def numberToWords(self, num: int) -> str:
         lessThan10 = {1 : 'One', 2 : "Two", 3 : "Three", 4 : "Four", 5 : "Five", 6 : "Six", 7 : "Seven", 8 : "Eight", 9 : "Nine"}
