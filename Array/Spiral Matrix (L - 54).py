@@ -1,5 +1,5 @@
-T.C. = O(n)
-S.C. = O(n) #for answer
+T.C. = O(m*n)
+S.C. = O(m*n) #for answer
 
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
